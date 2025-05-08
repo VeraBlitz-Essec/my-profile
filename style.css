@@ -1,0 +1,160 @@
+
+
+body {
+	background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <200>;
+  font-style: normal;
+}	
+
+
+
+h1 {
+  color: rgb(120, 120, 120);
+
+
+
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: purple;
+  text-decoration: none;
+}
+
+
+
+div {
+	background: white;                         /* White background */
+	padding: 30px;                             /* Internal space */
+	border-radius: 20px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+	margin: 50px;
+	text-align: center;
+
+}
+
+
+
+.pics {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+
+
+}
+
+#spotify-button {
+
+	color: #1ed760;
+	background: #121212;                         /* Blue background */
+	padding: 10px;                             /* Internal space */
+	border-radius: 20px;                        /* Small radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+	margin: 100px;
+
+
+}
+
+#spotify-button:hover {
+  color: #121212;
+  background: #1ed760;
+  text-decoration: none;
+
+}
+
+#spotify-circle {
+	padding-left: 0px;
+
+
+}
+
+.spotify-text {
+    margin-right: 10px;
+
+
+
+}
+
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+	display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+
+
+
+
+}
+
+#meta {
+  font-size: 40px; /* adjust as needed */
+
+}
+
+
+@media (max-width: 553px) {
+ 	
+ 	#spotify-button {
+ 		border-radius: 50%;
+ 		padding-left: 10;
+ 		padding-right: 10;
+ 		padding-top: 10;
+ 		padding-bottom: 10; 
+ 	}
+  
+  .spotify-text {
+    display: none;
+    
+
+
+  }
+
+}
+
+@media (max-width: 553px) {
+  /* For a screen < 720px, this CSS will be read */
+  .box {
+
+    border-: 10%;
+  }
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .box {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .box {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .box {
+    width: 300px;
+  }
+}
+
+/*  @media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  /*.box {
+    background-color: grey;
+  }
+  body {
+  	background-color: grey;
+
+
+  }
+}
+
